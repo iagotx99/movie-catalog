@@ -1,0 +1,39 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h2 {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+}
